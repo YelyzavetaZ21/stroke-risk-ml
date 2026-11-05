@@ -1,0 +1,44 @@
+{
+  "threshold": 0.06,
+  "columns": [
+    "age",
+    "hypertension",
+    "heart_disease",
+    "avg_glucose_level",
+    "bmi",
+    "bmi_missing",
+    "gender_Male",
+    "gender_Other",
+    "ever_married_Yes",
+    "work_type_Never_worked",
+    "work_type_Private",
+    "work_type_Self-employed",
+    "work_type_children",
+    "Residence_type_Urban",
+    "smoking_status_formerly smoked",
+    "smoking_status_never smoked",
+    "smoking_status_smokes"
+  ],
+  "age_bins": [
+    0,
+    18,
+    40,
+    60,
+    80,
+    100
+  ],
+  "age_labels": [
+    "0-18",
+    "19-40",
+    "41-60",
+    "61-80",
+    "81+"
+  ],
+  "bmi_median_by_age_group": {
+    "0-18": 20.1,
+    "19-40": 28.0,
+    "41-60": 30.3,
+    "61-80": 29.3,
+    "81+": 27.5
+  }
+}
